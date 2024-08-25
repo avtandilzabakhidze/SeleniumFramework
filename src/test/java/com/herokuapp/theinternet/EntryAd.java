@@ -37,7 +37,7 @@ public class EntryAd {
         driver.findElement(By.linkText("Entry Ad")).click();
         WebElement closeAd = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class ='modal-footer']//p")));
         closeAd.click();
-        Boolean adDiv = wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class=\"modal\"]")));
+        boolean adDiv =driver.findElement(By.xpath("//div[@class=\"modal\"]")).isDisplayed();
         Assert.assertFalse(adDiv , "\n Ad is still displayed \n");
     }
 
