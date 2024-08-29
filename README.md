@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains automated test cases written in Selenium for testing the functionalities of [The Internet Herokuapp](https://the-internet.herokuapp.com/). The site provides a range of web application scenarios to practice automated testing.
+This repository contains automated test cases written in Selenium for testing the functionalities of [The Internet Herokuapp](https://the-internet.herokuapp.com/) . The site provides a range of web application scenarios to practice automated testing.
 
 ## Features
 
